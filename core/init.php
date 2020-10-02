@@ -26,7 +26,7 @@ if ($enableErrors){
 date_default_timezone_set('Europe/Dublin');
 
 require 'functions/general.php';
-require 'assets/Services/Twilio.php';
+
 
 
 ?>
