@@ -4,6 +4,12 @@
     include 'core/config.php';
     include 'assets/inc/start.php';
 
+    // Required if your environment does not handle autoloading
+    require __DIR__ . '/vendor/autoload.php';
+
+    // Use the REST API Client to make requests to the Twilio REST API
+    use Twilio\Rest\Client;
+
 ?>
 <div class="container">
     <div class="test">

@@ -3,6 +3,13 @@
     include 'core/init.php';
     include 'core/config.php';
 
+    // Required if your environment does not handle autoloading
+    require __DIR__ . '/vendor/autoload.php';
+
+    // Use the REST API Client to make requests to the Twilio REST API
+    use Twilio\Rest\Client;
+
+    
     header('Content-type: application/json');
 
     // Insert Twillio AccountSid and AuthToken from www.twilio.com/user/account
