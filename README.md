@@ -18,6 +18,7 @@ Currently SMSSpoof only supports the [Twilio SMS API](https://www.twilio.com/doc
 Clone this repo into your WebServer document root and get the [Twilio library](https://www.twilio.com/docs/libraries/php) using composer
 
     git clone https://github.com/vpn/SMSSpoof.git /var/www/SMSSpoof
+    
     composer require twilio/sdk
 
 Edit the config file _(core/config.php)_ and add your **AccountSID** and **AuthToken** to the file. You can find your AccountSID and AuthToken within the [Twilio Console](https://www.twilio.com/console). They can be seen in the image here
