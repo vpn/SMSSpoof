@@ -1,6 +1,6 @@
 # SMSSpoof
 
-![iPhone](http://i.stuf.io/phones.png)
+![iPhone](https://i.imgur.com/TK6qQ9P.png)
 
 
  SMS Spoof allows you to send an SMS message to someone and change who it's from (the **Sender**). For example, you could send a message to someone and make the sender "**Ex Girlfriend**" and set the message body to "**I'm Pregnant!!**" In the images below, there's an example of how that will look on the recipient phone
@@ -19,7 +19,7 @@ Clone this repo into your WebServer document root
     git clone https://github.com/vpn/SMSSpoof.git /var/www/SMSSpoof
 
 Edit the config file _(core/config.php)_ and add your **AccountSID** and **AuthToken** to the file. You can find your AccountSID and AuthToken within the [Twilio Console](https://www.twilio.com/console). They can be seen in the image here
-![Screenshot of Twilio account details](http://i.stuf.io/131bzq3n8383270.png)
+![Screenshot of Twilio account details](https://i.imgur.com/V85Ov5f.png)
 
 You need to uncomment the **AccountSid** and **AuthToken** elements in the `$config` array and add your details. It should look something like
 ```PHP
