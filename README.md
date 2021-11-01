@@ -1,5 +1,12 @@
 # SMSSpoof
 
+## **PLEASE NOTE: THIS IS A DEV BRANCH**
+**This branch is not stable, it is currently being updated to use the React framework, as the current PHP setup is a bit too bulky.**
+
+Please feel free to start contributing. Currently we need some contribution guidelines setup and a road map created. The end goal is to have a more up-to-date version of the PHP application that was made a few years ago. The app should be containerised to ensure that it will run anywhere (docker); furthermore, it shouldn't rely on any external API's for number validation, like the PHP version does.
+#
+# OLD README
+
 ![iPhone](https://i.imgur.com/TK6qQ9P.png)
 
 
