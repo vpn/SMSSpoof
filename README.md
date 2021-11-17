@@ -9,7 +9,7 @@
 Currently SMSSpoof only supports the [Twilio SMS API](https://www.twilio.com/docs/api/rest/message). In the future there will be support for other SMS API's such as MessageBird, Sinch, Nexmo, etc... If you have a request for specific communications API to be added then post a request in the [Issues area](./issues).
 
 ### Requirements
- * A [Twilio](http://twilio.com) account
+ * A [Twilio ($10 referral)](www.twilio.com/referral/EzTvu9) account
  * Any WebServer (*Eg, NGINX/Apache*)
  * PHP version 5.3 or higher
 
