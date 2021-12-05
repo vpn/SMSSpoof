@@ -38,6 +38,15 @@ You need to fill in all fields,
 * **Recipient** - This is the number of who you want to send the message to. Make sure that the country that you are sending the message to supports Alphanumeric Sender ID's. A list of the supported countries can be seen in the **Supported Countries** section.
 * **Message** - This is the body of the SMS that is being sent. You are limited to 160 characters. This is because after 160 characters messages are then concatenated and may display differently in international countries.
 
+## Docker
+```
+docker-compuse up
+```
+and open 
+```
+http://localhost:8080/
+```
+
 ## Contributing
 1. Fork this repo
 2. Create your branch `git checkout -b some-branch-name`
