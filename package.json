@@ -1,0 +1,23 @@
+{
+  "name": "smsspoof",
+  "version": "1.0.0",
+  "description": "web interface for sending SMS via Twilio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vpn/SMSSpoof.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vpn/SMSSpoof/issues"
+  },
+  "homepage": "https://github.com/vpn/SMSSpoof#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
